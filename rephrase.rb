@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 substitutions = [
-[/[A-Z][A-Z][A-Z][A-Z]+((?=[^A-Za-z])|(?!.))/, lambda{|x|x.downcase}],
+[/[A-Z][A-Z][A-Z][A-Z]+((?=[^A-Za-z])|(?!.))/, lambda{|x|x.downcase}], # long words all in caps are read as words not letters
 [/Leica/i, "Likea"],
 [/Axeda/i, "Exceedar"],
 [/\.exe(?=[^a-z])/i, " executable "],
