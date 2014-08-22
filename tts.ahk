@@ -4,9 +4,28 @@ ClipSaved := ClipboardAll
 Clipboard = ; Start off empty to allow ClipWait to detect when the text has arrived.
 Send ^c
 ClipWait  ; Wait for the clipboard to contain text.
-FileDelete , c:\tmp\tmp_ahk_tts_clip.txt
-FileAppend , %Clipboard% , c:\tmp\tmp_ahk_tts_clip.txt
-Run, %comspec% /c ""F:\bin\tools\rephrase_runner.rb" c:\tmp\tmp_ahk_tts_clip.txt" ,,;Hide
+FileDelete , c:\temp\tmp_ahk_tts_clip.txt
+FileAppend , %Clipboard% , c:\temp\tmp_ahk_tts_clip.txt
+
+Gui, Add, Button, gPause, &Pause
+Gui, Add, Button, gResume ys, &Resume
+Gui, Add, Button, gStop ys, &Stop
+Gui, Show,, TTS
+
+Run, %comspec% /c "".\rephrase_runner.rb" c:\temp\tmp_ahk_tts_clip.txt" ,,;Hide
 Clipboard := ClipSaved 
 ClipSaved = ; Free the memory 
-return 
+Return 
+
+Stop:
+ Run, %comspec% /c "".\stop.rb" ,,;Hide
+ Gui, Cancel
+Return
+
+Pause:
+ Run, %comspec% /c "".\pause.rb" ,,;Hide
+Return
+
+Resume:
+	Run, %comspec% /c "".\resume.rb" ,,;Hide
+Return

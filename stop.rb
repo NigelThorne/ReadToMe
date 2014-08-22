@@ -1,0 +1,3 @@
+require "./say"
+
+say("")
