@@ -14,7 +14,7 @@ def resume()
 end
 
 def post(act, body)
-	uri = URI.parse("http://localhost:77325/#{act}")
+	uri = URI.parse("http://localhost:7732/#{act}")
 	response = Net::HTTP.post_form(uri, body)
 end
 

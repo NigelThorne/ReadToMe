@@ -3,9 +3,13 @@
 
 begin
 SUBSTITUTIONS = {
+	'no.'											=>  "no .",
     'XP'											=>  'ex-pea',
     'APIs'                      					=>  'A P eyes',
     'GOTO'                      					=>  'Go Too',
+    /plugin/ => "plug in",
+#    'WIP'                      						=>  '"Work In Progress"',
+    'IMO'                      						=>  '"In My Opinion"',
 	/[A-Z][A-Z][A-Z][A-Z]+((?=[^A-Za-z])|(?!.))/	=> lambda{|x|x.downcase}, #All caps becomes word
 	"\u0092"										=> "'",	
 	/n[^a-z0-9\s]t/									=> 'n\'t',	

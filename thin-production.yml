@@ -1,0 +1,11 @@
+---
+address: localhost
+port: 7732
+servers: 1
+max_conns: 10
+max_persistent_conns: 2
+timeout: 30
+environment: production
+pid: tmp/pids/thin-production.pid
+log: log/thin-production.log
+daemonize: true 
