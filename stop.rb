@@ -1,3 +1,3 @@
 require "./say"
 
-say("")
+stop

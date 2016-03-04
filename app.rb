@@ -6,6 +6,8 @@ class MySinatraApp < Sinatra::Base
 
   set :port, 7732 #SPEAK
   
+  @is_paused = false
+  
   module SpeechVoiceSpeakFlags
     #SpVoice Flags
     SVSFDefault = 0
@@ -25,14 +27,48 @@ class MySinatraApp < Sinatra::Base
     SVSFUnusedFlags = -128
   end
   
-  @@queue ||= []
+	@@queue ||= []
 
+	get '/' do
+		"""<html><body>
+		<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js\"></script>
+		<script>
+		function post(link) {
+		  var xhttp = new XMLHttpRequest();
+		  xhttp.open(\"POST\", link , true);
+		  xhttp.send();
+		}
+		</script>
+
+		<form id='sayform' action='./say' method='post'>What should I say?: <input name='text' type='text'></input></form></br>
+		<button type='button' onclick=\"post('./pause')\">Pause</button>
+		<button type='button' onclick=\"post('./resume')\">Resume</button>
+		<button type='button' onclick=\"post('./stop')\">Stop</button>
+
+		<script>
+			$('#sayform').submit(function(e){
+			    e.preventDefault();
+			    $.ajax({
+			        url:'./say',
+			        type:'post',
+			        data:$('#sayform').serialize(),
+			        success:function(){
+			        	$('#sayform input').val(\"\");
+			        }
+			    });
+			});
+		</script>
+		</body></html>"""
+	end
+  
 	post '/say' do
+		@is_paused = false
 		voice.Speak(params["text"], SpeechVoiceSpeakFlags::SVSFlagsAsync)
 		return "ok"
 	end
 
 	post '/say_to_file' do
+		@is_paused = false
 		out= voice.AudioOutputStream
 		temp_file = "c:\\temp\\output.wav"
 		rm_file(temp_file)		
@@ -60,14 +96,33 @@ class MySinatraApp < Sinatra::Base
 		return "ok #{temp_file}"
 	end
 
-
 	post'/pause' do
 		voice.Pause
+		@is_paused = true
+		return "ok"
+	end
+
+	post'/stop' do
+		voice.Speak("", SpeechVoiceSpeakFlags::SVSFPurgeBeforeSpeak)
+		@is_paused = false
 		return "ok"
 	end
 
 	post '/resume' do
 		voice.Resume
+		@is_paused = false
+		return "ok"
+	end
+
+	post '/toggle' do
+		if (!@is_paused)
+			voice.Pause
+		else	
+			voice.Resume
+		end
+
+		@is_paused = !@is_paused
+
 		return "ok"
 	end
 	

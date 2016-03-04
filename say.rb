@@ -2,7 +2,11 @@ require 'uri'
 require 'net/http'
 
 def say(text)
-   post("say", 'text' => text)
+	post("say", 'text' => text)
+end
+
+def toggle()
+	post("toggle", 'text' => '')
 end
 
 def pause()
@@ -11,6 +15,10 @@ end
 
 def resume()
    post("resume", 'text' => '')
+end
+
+def stop()
+   post("stop", 'text' => '')
 end
 
 def post(act, body)

@@ -3,11 +3,20 @@
 
 begin
 SUBSTITUTIONS = {
+	# TODO:  Read urls correctly... http://aumel-constash.vsl.com.au:7990/projects/BOND/repos/bddmanagement  as http aumel-constash dot vsl dot com dot au, port 7990, projects, BOND, repos, bdd Management
+	/UCASE([0-9]+)/									=> "yous case \\1",
+	/\b\.Net\b/										=> " dot net ",
+	"/"												=> "-n-",
+	/\bgit\b/i										=> " gitt ",
+	/\bLBS\b/										=> " Leica Biosystems ",
 	'no.'											=>  "no .",
     'XP'											=>  'ex-pea',
     'APIs'                      					=>  'A P eyes',
     'GOTO'                      					=>  'Go Too',
-    /plugin/ => "plug in",
+    ' AND '                      					=>  ' , and ',
+    ' WHEN '                      					=>  ' , when ',
+    ' THEN '                      					=>  ' , then ',
+    /plugin/ 										=> "plug in",
 #    'WIP'                      						=>  '"Work In Progress"',
     'IMO'                      						=>  '"In My Opinion"',
 	/[A-Z][A-Z][A-Z][A-Z]+((?=[^A-Za-z])|(?!.))/	=> lambda{|x|x.downcase}, #All caps becomes word
@@ -18,7 +27,7 @@ SUBSTITUTIONS = {
 	/PMs/											=> "pee-emms", 
 	/RESTful/										=> "restful", 
 	/Actionee/i										=> "Action-e",
-	/Leica/i										=> "Likea",
+	/Leica/i										=> "Liker",
 	/Axeda/i										=> "Exceedar",
 	/\.exe(?=[^a-z])/i								=> " executable ",
 	/\.txt(?=[^a-z])/i								=> " text file ",
@@ -44,11 +53,12 @@ SUBSTITUTIONS = {
 	'reading and writing'                  			=>  ' banana and <phoneme alphabet="x-cmu" ph="T AH0 M EY1 T OW0">writing</phoneme>',
 }
 
+
+# gitt
 #Hi, I'm Fred. The time is currently <say-as format="dmy" interpret-as="date">01/02/1960</say-as>
 
 require 'cgi'
 
-  
 #def to_speakxml(text)
 #  text.gsub!(/\r?\n/, " ")
 #	expression = Regexp.union(SUBSTITUTIONS.keys)
@@ -68,6 +78,7 @@ require 'cgi'
 #		e.to_s
 #	end
 #end
+
 def to_speakxml(text)
   text.gsub!(/\r?\n/, " ")
 	expression = Regexp.union(SUBSTITUTIONS.keys)
