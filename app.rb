@@ -6,7 +6,7 @@ class MySinatraApp < Sinatra::Base
 
   set :port, 7732 #SPEAK
   
-  @is_paused = false
+  @@is_paused = false
   
   module SpeechVoiceSpeakFlags
     #SpVoice Flags
@@ -44,6 +44,7 @@ class MySinatraApp < Sinatra::Base
 		<button type='button' onclick=\"post('./pause')\">Pause</button>
 		<button type='button' onclick=\"post('./resume')\">Resume</button>
 		<button type='button' onclick=\"post('./stop')\">Stop</button>
+		<button type='button' onclick=\"post('./toggle')\">Pause/Resume</button>
 
 		<script>
 			$('#sayform').submit(function(e){
@@ -62,13 +63,13 @@ class MySinatraApp < Sinatra::Base
 	end
   
 	post '/say' do
-		@is_paused = false
+		@@is_paused = false
 		voice.Speak(params["text"], SpeechVoiceSpeakFlags::SVSFlagsAsync)
 		return "ok"
 	end
 
 	post '/say_to_file' do
-		@is_paused = false
+		@@is_paused = false
 		out= voice.AudioOutputStream
 		temp_file = "c:\\temp\\output.wav"
 		rm_file(temp_file)		
@@ -98,31 +99,30 @@ class MySinatraApp < Sinatra::Base
 
 	post'/pause' do
 		voice.Pause
-		@is_paused = true
+		@@is_paused = true
 		return "ok"
 	end
 
 	post'/stop' do
 		voice.Speak("", SpeechVoiceSpeakFlags::SVSFPurgeBeforeSpeak)
-		@is_paused = false
+		@@is_paused = false
 		return "ok"
 	end
 
 	post '/resume' do
 		voice.Resume
-		@is_paused = false
+		@@is_paused = false
 		return "ok"
 	end
 
 	post '/toggle' do
-		if (!@is_paused)
-			voice.Pause
-		else	
+		if (@@is_paused)
+			@@is_paused = false
 			voice.Resume
+		else	
+			@@is_paused = true
+			voice.Pause
 		end
-
-		@is_paused = !@is_paused
-
 		return "ok"
 	end
 	
