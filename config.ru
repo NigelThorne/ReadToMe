@@ -1,11 +1,16 @@
 # config.ru
-require 'rubygems'
-require 'sinatra'
-require 'rack/reloader'
-require './app'
-
-set :environment, :development
+require 'bundler/setup'
+require_relative './app'
+# require 'main'
 
 
-use Rack::Reloader, 0 if development?
+
 run Sinatra::Application
+
+# require 'rack/reloader'
+
+# set :environment, :development
+
+
+# use Rack::Reloader, 0 if development?
+#run Sinatra::Application

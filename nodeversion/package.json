@@ -1,0 +1,16 @@
+{
+  "name": "node_tts_server",
+  "version": "1.0.0",
+  "description": "TTS rest endpoint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jscript": "*",
+    "body-parser" : "*"
+  }
+}

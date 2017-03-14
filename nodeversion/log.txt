@@ -1,0 +1,986 @@
+
+> ref@1.3.4 install D:\code\tts\nodeversion\node_modules\ref-struct\node_modules\ref
+> node-gyp rebuild
+
+
+[m[32m]9;8;"USERNAME"\@]9;8;"COMPUTERNAME"\ [92mD:\code\tts\nodeversion\node_modules\ref-struct\node_modules\ref[90m
+[90m$[m ]9;12\if not defined npm_config_node_gyp (node "C:\Users\nwt.LEICABIO\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "" rebuild ) 
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+  binding.cc
+  win_delay_load_hook.cc
+     Creating library D:\code\tts\nodeversion\node_modules\ref-struct\node_modules\ref\build\Release\binding.lib and object D:\code\tts\nodeversion\node_modules\ref-struct\node_modules\ref\build\Release\binding.exp
+  Generating code
+  Finished generating code
+  binding.vcxproj -> D:\code\tts\nodeversion\node_modules\ref-struct\node_modules\ref\build\Release\\binding.node
+  binding.vcxproj -> D:\code\tts\nodeversion\node_modules\ref-struct\node_modules\ref\build\Release\binding.pdb (Full PDB)
+
+> ref@1.3.4 install D:\code\tts\nodeversion\node_modules\win32ole\node_modules\ref
+> node-gyp rebuild
+
+
+[m[32m]9;8;"USERNAME"\@]9;8;"COMPUTERNAME"\ [92mD:\code\tts\nodeversion\node_modules\win32ole\node_modules\ref[90m
+[90m$[m ]9;12\if not defined npm_config_node_gyp (node "C:\Users\nwt.LEICABIO\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "" rebuild ) 
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+  binding.cc
+  win_delay_load_hook.cc
+     Creating library D:\code\tts\nodeversion\node_modules\win32ole\node_modules\ref\build\Release\binding.lib and object D:\code\tts\nodeversion\node_modules\win32ole\node_modules\ref\build\Release\binding.exp
+  Generating code
+  Finished generating code
+  binding.vcxproj -> D:\code\tts\nodeversion\node_modules\win32ole\node_modules\ref\build\Release\\binding.node
+  binding.vcxproj -> D:\code\tts\nodeversion\node_modules\win32ole\node_modules\ref\build\Release\binding.pdb (Full PDB)
+
+> win32ole@0.1.3 install D:\code\tts\nodeversion\node_modules\win32ole
+> node-gyp rebuild
+
+
+[m[32m]9;8;"USERNAME"\@]9;8;"COMPUTERNAME"\ [92mD:\code\tts\nodeversion\node_modules\win32ole[90m
+[90m$[m ]9;12\if not defined npm_config_node_gyp (node "C:\Users\nwt.LEICABIO\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "" rebuild ) 
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+  node_win32ole.cc
+  win32ole_gettimeofday.cc
+  force_gc_extension.cc
+  force_gc_internal.cc
+  client.cc
+  v8variant.cc
+  ole32core.cpp
+  win_delay_load_hook.cc
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(86): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(87): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(88): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(89): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(90): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\win32ole_gettimeofday.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_extension.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(91): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\force_gc_internal.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\force_gc_internal.cc)d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(10): error C2039: 'ObjectWrap': is not a member of 'node' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(92): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc)C:\Users\nwt.LEICABIO\.node-gyp\4.4.0\include\node\node_buffer.h(7): note: see declaration of 'node' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(10): error C2504: 'ObjectWrap': base class undefined (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(10): error C2039: 'ObjectWrap': is not a member of 'node' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  C:\Users\nwt.LEICABIO\.node-gyp\4.4.0\include\node\node_buffer.h(7): note: see declaration of 'node' (compiling source file ..\src\node_win32ole.cc)
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(14): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(10): error C2504: 'ObjectWrap': base class undefined (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(15): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(14): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(16): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(15): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(18): error C2039: 'ObjectWrap': is not a member of 'node' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  C:\Users\nwt.LEICABIO\.node-gyp\4.4.0\include\node\node_buffer.h(7): note: see declaration of 'node' (compiling source file ..\src\client.cc)
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(16): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(18): error C2614: 'node_win32ole::Client': illegal member initialization: 'ObjectWrap' is not a base or member (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(18): error C2039: 'ObjectWrap': is not a member of 'node' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  C:\Users\nwt.LEICABIO\.node-gyp\4.4.0\include\node\node_buffer.h(7): note: see declaration of 'node' (compiling source file ..\src\node_win32ole.cc)
+d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(18): error C2614: 'node_win32ole::Client': illegal member initialization: 'ObjectWrap' is not a base or member (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(19): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(21): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\force_gc_internal.cc(23): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(23): error C2228: left of '.Length' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\force_gc_internal.cc(23): note: type is 'unknown-type'
+..\src\force_gc_internal.cc(25): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\force_gc_internal.cc(25): error C3861: 'New': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(24): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(26): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(26): error C2227: left of '->IsInt32' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(28): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\force_gc_internal.cc(28): error C3861: 'New': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(27): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(29): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(29): error C2227: left of '->Int32Value' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(54): error C2039: 'IdleNotification': is not a member of 'v8::V8' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(5972): note: see declaration of 'v8::V8'
+..\src\force_gc_internal.cc(54): error C3861: 'IdleNotification': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_internal.cc(57): error C2039: 'Close': is not a member of 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\force_gc_internal.cc(57): error C2660: 'v8::Boolean::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\ole32core.cpp(41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\ole32core.cpp(43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\ole32core.cpp(54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2209: 'v8::Handle<v8::Value>': aliases cannot be used in constructor declarations (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2059: syntax error: '*' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2091: function returns function (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2931: 'v8::Local<v8::Value>': template-id redefined as a member function of 'node_win32ole::_fundamental_attr' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(1020): note: see declaration of 'v8::Local<v8::Value>' (compiling source file ..\src\v8variant.cc)
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): warning C4183: 'Local<v8::Value>': missing return type; assumed to be a member function returning 'int' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(18): error C2039: 'ObjectWrap': is not a member of 'node' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  C:\Users\nwt.LEICABIO\.node-gyp\4.4.0\include\node\node_buffer.h(7): note: see declaration of 'node' (compiling source file ..\src\v8variant.cc)
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(18): error C2504: 'ObjectWrap': base class undefined (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(24): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(25): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(26): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(13): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(27): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(15): error C3688: invalid literal suffix '__FSTREXP'; literal operator or literal operator template 'operator ""__FSTREXP' not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(28): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(29): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(30): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(31): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(23): error C2664: 'v8::Local<v8::Context> v8::Context::New(v8::Isolate *,v8::ExtensionConfiguration *,v8::Local<v8::ObjectTemplate>,v8::Local<v8::Value>)': cannot convert argument 1 from 'v8::ExtensionConfiguration *' to 'v8::Isolate *' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\force_gc_extension.cc(23): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(24): error C2664: 'v8::Context::Scope::Scope(const v8::Context::Scope &)': cannot convert argument 1 from 'v8::Persistent<v8::Context,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::Context>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::Context
+          ]
+  ..\src\force_gc_extension.cc(24): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(32): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(25): error C3688: invalid literal suffix '__FSTREXP'; literal operator or literal operator template 'operator ""__FSTREXP' not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(34): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(26): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(36): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(37): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(38): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(39): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(40): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(42): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(44): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(45): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(28): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\force_gc_extension.cc(28): error C3861: 'New': identifier not foundd:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(47): error C2039: 'ObjectWrap': is not a member of 'node' (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  C:\Users\nwt.LEICABIO\.node-gyp\4.4.0\include\node\node_buffer.h(7): note: see declaration of 'node' (compiling source file ..\src\v8variant.cc)
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(47): error C2614: 'node_win32ole::V8Variant': illegal member initialization: 'ObjectWrap' is not a base or member (compiling source file ..\src\v8variant.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(35): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\force_gc_extension.cc(35): error C3861: 'New': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(35): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(42): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\force_gc_extension.cc(42): error C3861: 'New': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(42): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(45): error C2039: 'Dispose': is not a member of 'v8::Persistent<v8::Context,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::Context
+          ]
+..\src\v8variant.cc(34): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\force_gc_extension.cc(23): note: see declaration of 'v8::Persistent<v8::Context,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Context
+          ]c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\v8variant.cc(35): error C2664: 'v8::Local<v8::FunctionTemplate> v8::FunctionTemplate::New(v8::Isolate *,v8::FunctionCallback,v8::Local<v8::Value>,v8::Local<v8::Signature>,int)': cannot convert argument 1 from 'v8::Local<v8::Value> (__cdecl *)(const int)' to 'v8::Isolate *' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\v8variant.cc(35): note: There is no context in which this conversion is possible
+..\src\v8variant.cc(36): error C2660: 'v8::PersistentBase<T>::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\v8variant.cc(37): error C2819: type 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' does not have an overloaded member 'operator ->' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\force_gc_extension.cc(47): error C2039: 'Close': is not a member of 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(20): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+  ..\src\v8variant.cc(37): note: did you intend to use '.' instead?
+..\src\force_gc_extension.cc(47): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(37): error C2039: 'InstanceTemplate': is not a member of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+  d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(20): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\force_gc_extension.cc(47): error C3861: 'New': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(37): error C2227: left of '->SetInternalFieldCount' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\force_gc_extension.cc(15): warning C4474: 'fprintf' : too many arguments passed for format string [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\force_gc_extension.cc(15): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+..\src\v8variant.cc(38): error C2819: type 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' does not have an overloaded member 'operator ->' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\force_gc_extension.cc(25): warning C4474: 'fprintf' : too many arguments passed for format string [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(20): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\force_gc_extension.cc(25): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  ..\src\v8variant.cc(38): note: did you intend to use '.' instead?
+..\src\v8variant.cc(38): error C2039: 'SetClassName': is not a member of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(20): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\v8variant.cc(38): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\v8variant.cc(38): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(39): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(39): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(40): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(40): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(41): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(41): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(42): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(42): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(43): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(43): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(44): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(44): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(45): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(45): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(46): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(46): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(47): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(47): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(49): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(49): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(50): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(50): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(51): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(51): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(59): error C2819: type 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' does not have an overloaded member 'operator ->' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(20): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(59): note: did you intend to use '.' instead?
+..\src\v8variant.cc(59): error C2039: 'InstanceTemplate': is not a member of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(20): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\v8variant.cc(60): error C2664: 'void v8::ObjectTemplate::SetCallAsFunctionHandler(v8::FunctionCallback,v8::Local<v8::Value>)': cannot convert argument 1 from 'v8::Local<v8::Value> (__cdecl *)(const int)' to 'v8::FunctionCallback' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\v8variant.cc(60): note: None of the functions with this name in scope match the target type
+..\src\v8variant.cc(61): error C2664: 'void v8::ObjectTemplate::SetNamedPropertyHandler(v8::NamedPropertyGetterCallback,v8::NamedPropertySetterCallback,v8::NamedPropertyQueryCallback,v8::NamedPropertyDeleterCallback,v8::NamedPropertyEnumeratorCallback,v8::Local<v8::Value>)': cannot convert argument 1 from 'v8::Local<v8::Value> (__cdecl *)(v8::Local<v8::String>,const int)' to 'v8::NamedPropertyGetterCallback' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\v8variant.cc(61): note: None of the functions with this name in scope match the target type
+..\src\v8variant.cc(63): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(63): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\v8variant.cc(64): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\v8variant.cc(64): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(64): error C2819: type 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' does not have an overloaded member 'operator ->' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(20): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\v8variant.cc(64): note: did you intend to use '.' instead?
+..\src\v8variant.cc(64): error C2039: 'GetFunction': is not a member of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(20): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\win32ole_gettimeofday.cc(22): warning C4244: '=': conversion from '__time64_t' to 'long', possible loss of data [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(29): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(31): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2209: 'v8::Handle<v8::Value>': aliases cannot be used in constructor declarations (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2059: syntax error: '*' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(33): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(33): error C2228: left of '.Length' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\win32ole_gettimeofday.cc(33): note: type is 'unknown-type'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(36): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2091: function returns function (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(36): error C2227: left of '->IsObject' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(37): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(37): error C2227: left of '->ToObject' must point to class/struct/union/generic typed:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2931: 'v8::Local<v8::Value>': template-id redefined as a member function of 'node_win32ole::_fundamental_attr' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(1020): note: see declaration of 'v8::Local<v8::Value>' (compiling source file ..\src\node_win32ole.cc)
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): warning C4183: 'Local<v8::Value>': missing return type; assumed to be a member function returning 'int' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(42): error C2039: 'Close': is not a member of 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(18): error C2039: 'ObjectWrap': is not a member of 'node' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+  C:\Users\nwt.LEICABIO\.node-gyp\4.4.0\include\node\node_buffer.h(7): note: see declaration of 'node' (compiling source file ..\src\node_win32ole.cc)
+..\src\win32ole_gettimeofday.cc(42): error C2660: 'v8::Boolean::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(18): error C2504: 'ObjectWrap': base class undefined (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2209: 'v8::Handle<v8::Value>': aliases cannot be used in constructor declarations (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(45): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2059: syntax error: '*' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(24): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(47): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'..\src\v8variant.cc(171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(25): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2091: function returns function (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(171): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(49): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(49): error C2228: left of '.Length' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\win32ole_gettimeofday.cc(49): note: type is 'unknown-type'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(26): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): error C2931: 'v8::Local<v8::Value>': template-id redefined as a member function of 'node_win32ole::_fundamental_attr' (compiling source file ..\src\client.cc)..\src\win32ole_gettimeofday.cc(50): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+..\src\v8variant.cc(173): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc)c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(1020): note: see declaration of 'v8::Local<v8::Value>' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+..\src\win32ole_gettimeofday.cc(50): error C2227: left of '->IsInt32' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(27): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(15): warning C4183: 'Local<v8::Value>': missing return type; assumed to be a member function returning 'int' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(175): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(52): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(18): error C2039: 'ObjectWrap': is not a member of 'node' (compiling source file ..\src\client.cc)..\src\v8variant.cc(175): error C2228: left of '.This' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  C:\Users\nwt.LEICABIO\.node-gyp\4.4.0\include\node\node_buffer.h(7): note: see declaration of 'node' (compiling source file ..\src\client.cc)
+  ..\src\v8variant.cc(175): note: type is 'unknown-type'
+..\src\win32ole_gettimeofday.cc(52): error C3861: 'New': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(28): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(18): error C2504: 'ObjectWrap': base class undefined (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(51): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(176): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(53): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(29): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(176): error C2664: 'v8::Local<v8::Value> node_win32ole::V8Variant::New(const int)': cannot convert argument 1 from 'const char [76]' to 'const int' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\v8variant.cc(176): note: There is no context in which this conversion is possible
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(24): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(53): error C2227: left of '->Int32Value' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(176): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(55): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(30): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(178): error C2039: 'Close': is not a member of 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(25): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\win32ole_gettimeofday.cc(55): error C2228: left of '.Length' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\win32ole_gettimeofday.cc(55): note: type is 'unknown-type'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(178): error C2660: 'v8::Integer::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(56): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(31): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(26): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(181): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(56): error C2227: left of '->IsBoolean' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(181): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(58): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(32): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(27): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(58): error C3861: 'New': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(183): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope'd:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(34): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\win32ole_gettimeofday.cc(57): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(28): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(185): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(59): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(36): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(185): error C2228: left of '.This' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\v8variant.cc(185): note: type is 'unknown-type'
+..\src\win32ole_gettimeofday.cc(59): error C2227: left of '->BooleanValue' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(29): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(186): error C2039: 'New': is not a member of 'v8::String'..\src\win32ole_gettimeofday.cc(62): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'd:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc)
+  
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(37): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(62): error C2228: left of '.Length' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\win32ole_gettimeofday.cc(62): note: type is 'unknown-type'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(30): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(186): error C2664: 'v8::Local<v8::Value> node_win32ole::V8Variant::New(const int)': cannot convert argument 1 from 'const char [79]' to 'const int' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\v8variant.cc(186): note: There is no context in which this conversion is possible
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(63): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(186): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(38): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(63): error C2227: left of '->IsBoolean' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(31): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc)..\src\win32ole_gettimeofday.cc(65): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'd:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(39): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc)
+..\src\v8variant.cc(187): error C2819: type 'v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' does not have an overloaded member 'operator ->' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::Object
+          ]
+  
+  d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(84): note: see declaration of 'v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ]d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(32): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc)
+  
+  ..\src\v8variant.cc(187): note: did you intend to use '.' instead?..\src\win32ole_gettimeofday.cc(65): error C3861: 'New': identifier not found
+  
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(64): error C3861: 'ThrowException': identifier not found..\src\v8variant.cc(187): error C2039: 'Get': is not a member of 'v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::Object
+          ]
+  
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(40): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc)d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(84): note: see declaration of 'v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::Object
+          ]
+  
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(34): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(66): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(187): error C2039: 'NewSymbol': is not a member of 'v8::String'd:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'd:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc)
+  
+..\src\win32ole_gettimeofday.cc(66): error C2227: left of '->BooleanValue' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(42): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(187): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(36): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\win32ole_gettimeofday.cc(86): error C2039: 'Close': is not a member of 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\v8variant.cc(189): error C2039: 'Close': is not a member of 'v8::HandleScope'd:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(44): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\win32ole_gettimeofday.cc(86): error C2660: 'v8::Boolean::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(37): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(189): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(45): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(38): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(189): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(47): error C2039: 'ObjectWrap': is not a member of 'node' (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(39): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  C:\Users\nwt.LEICABIO\.node-gyp\4.4.0\include\node\node_buffer.h(7): note: see declaration of 'node' (compiling source file ..\src\node_win32ole.cc)
+..\src\v8variant.cc(192): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(47): error C2614: 'node_win32ole::V8Variant': illegal member initialization: 'ObjectWrap' is not a base or member (compiling source file ..\src\node_win32ole.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(40): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(194): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(42): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(44): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(196): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(196): error C2228: left of '.This' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\v8variant.cc(196): note: type is 'unknown-type'
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(45): error C2143: syntax error: missing ',' before '&' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(197): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\node_win32ole.cc(19): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(47): error C2039: 'ObjectWrap': is not a member of 'node' (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(197): error C2664: 'v8::Local<v8::Value> node_win32ole::V8Variant::New(const int)': cannot convert argument 1 from 'const char [80]' to 'const int' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  C:\Users\nwt.LEICABIO\.node-gyp\4.4.0\include\node\node_buffer.h(7): note: see declaration of 'node' (compiling source file ..\src\client.cc)
+  ..\src\v8variant.cc(197): note: There is no context in which this conversion is possible
+d:\code\tts\nodeversion\node_modules\win32ole\src\v8variant.h(47): error C2614: 'node_win32ole::V8Variant': illegal member initialization: 'ObjectWrap' is not a base or member (compiling source file ..\src\client.cc) [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(197): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(21): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(200): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\v8variant.cc(200): error C2664: 'v8::Local<v8::Value> node_win32ole::V8Variant::New(const int)': cannot convert argument 1 from 'const char [48]' to 'const int' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\v8variant.cc(200): note: There is no context in which this conversion is possible
+..\src\node_win32ole.cc(22): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(199): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(22): error C2228: left of '.Length' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\node_win32ole.cc(22): note: type is 'unknown-type'
+..\src\node_win32ole.cc(30): error C2039: 'Close': is not a member of 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\v8variant.cc(203): error C2039: 'Close': is not a member of 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\client.cc(17): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope'c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+..\src\node_win32ole.cc(30): error C2819: type 'v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' does not have an overloaded member 'operator ->' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::Object
+          ]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+..\src\v8variant.cc(203): error C2660: 'v8::Boolean::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(84): note: see declaration of 'v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+  ..\src\node_win32ole.cc(30): note: did you intend to use '.' instead?
+..\src\v8variant.cc(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(18): error C2664: 'v8::Local<v8::FunctionTemplate> v8::FunctionTemplate::New(v8::Isolate *,v8::FunctionCallback,v8::Local<v8::Value>,v8::Local<v8::Signature>,int)': cannot convert argument 1 from 'v8::Local<v8::Value> (__cdecl *)(const int)' to 'v8::Isolate *' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(18): note: There is no context in which this conversion is possible
+..\src\node_win32ole.cc(30): error C2039: 'Get': is not a member of 'v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::Object
+          ]
+..\src\v8variant.cc(206): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(84): note: see declaration of 'v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ]
+..\src\client.cc(19): error C2660: 'v8::PersistentBase<T>::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\v8variant.cc(206): fatal error C1003: error count exceeds 100; stopping compilation [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(30): error C2039: 'NewSymbol': is not a member of 'v8::String'..\src\client.cc(20): error C2819: type 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' does not have an overloaded member 'operator ->' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  
+  d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(12): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+  ..\src\client.cc(20): note: did you intend to use '.' instead?
+..\src\node_win32ole.cc(30): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(20): error C2039: 'InstanceTemplate': is not a member of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\node_win32ole.cc(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(12): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\node_win32ole.cc(34): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(20): error C2227: left of '->SetInternalFieldCount' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(21): error C2819: type 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' does not have an overloaded member 'operator ->' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\node_win32ole.cc(36): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(12): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'..\src\client.cc(21): note: did you intend to use '.' instead?
+  
+..\src\client.cc(21): error C2039: 'SetClassName': is not a member of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+  
+  d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(12): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+]..\src\node_win32ole.cc(37): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+..\src\node_win32ole.cc(37): error C2228: left of '.Length' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\node_win32ole.cc(37): note: type is 'unknown-type'
+..\src\client.cc(21): error C2039: 'NewSymbol': is not a member of 'v8::String'..\src\node_win32ole.cc(38): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\node_win32ole.cc(38): error C2512: 'v8::String::Utf8Value::Utf8Value': no appropriate default constructor available [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(21): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(42): error C2039: 'Close': is not a member of 'v8::HandleScope'..\src\client.cc(23): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+  ..\src\client.cc(23): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\node_win32ole.cc(42): error C2660: 'v8::Boolean::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(24): error C2664: 'void node::NODE_SET_PROTOTYPE_METHOD(v8::Local<v8::FunctionTemplate>,const char *,v8::FunctionCallback)': cannot convert argument 1 from 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' to 'v8::Local<v8::FunctionTemplate>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  ..\src\client.cc(24): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+..\src\node_win32ole.cc(45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(45): error C2143: syntax error: missing ',' before '&'..\src\client.cc(25): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\node_win32ole.cc(47): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(25): error C3861: 'NewSymbol': identifier not foundc:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'..\src\client.cc(25): error C2819: type 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' does not have an overloaded member 'operator ->'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+  
+  d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(12): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\node_win32ole.cc(48): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(25): note: did you intend to use '.' instead?
+..\src\node_win32ole.cc(48): error C2228: left of '.Length' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\node_win32ole.cc(48): note: type is 'unknown-type'
+..\src\node_win32ole.cc(49): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(25): error C2039: 'GetFunction': is not a member of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\node_win32ole.cc(49): error C2512: 'v8::String::Utf8Value::Utf8Value': no appropriate default constructor available [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(12): note: see declaration of 'v8::Persistent<v8::FunctionTemplate,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::FunctionTemplate
+          ]
+..\src\node_win32ole.cc(53): error C2039: 'Close': is not a member of 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\client.cc(28): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(53): error C2660: 'v8::Boolean::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(30): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(64): error C2660: 'v8::PersistentBase<v8::Object>::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'..\src\node_win32ole.cc(67): error C2039: 'NewSymbol': is not a member of 'v8::String'
+  
+..\src\client.cc(32): error C2065: 'args': undeclared identifierc:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+..\src\client.cc(32): error C2228: left of '.IsConstructCall' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(32): note: type is 'unknown-type'
+..\src\node_win32ole.cc(67): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(34): error C2039: 'New': is not a member of 'v8::String'..\src\node_win32ole.cc(68): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\node_win32ole.cc(68): error C3861: 'New': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(34): error C2664: 'v8::Local<v8::Value> node_win32ole::Client::New(const int)': cannot convert argument 1 from 'const char [50]' to 'const int' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(34): note: There is no context in which this conversion is possible
+..\src\client.cc(33): error C3861: 'ThrowException': identifier not found..\src\node_win32ole.cc(70): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\client.cc(36): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(70): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(36): error C2228: left of '.Length' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(36): note: type is 'unknown-type'
+..\src\client.cc(37): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(71): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(37): error C2227: left of '->IsString' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\client.cc(39): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(71): error C3861: 'New': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\node_win32ole.cc(73): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(39): error C2664: 'v8::Local<v8::Value> node_win32ole::Client::New(const int)': cannot convert argument 1 from 'const char [27]' to 'const int'c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  ..\src\client.cc(39): note: There is no context in which this conversion is possible
+..\src\node_win32ole.cc(73): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(38): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(74): error C2039: 'NewSymbol': is not a member of 'v8::String'..\src\client.cc(40): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\client.cc(40): error C2512: 'v8::String::Utf8Value::Utf8Value': no appropriate default constructor available [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(74): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(46): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(76): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\client.cc(46): error C2664: 'v8::Local<v8::Value> node_win32ole::Client::New(const int)': cannot convert argument 1 from 'const char [48]' to 'const int' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(46): note: There is no context in which this conversion is possible
+..\src\node_win32ole.cc(76): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(45): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(77): error C2664: 'v8::Local<v8::FunctionTemplate> v8::FunctionTemplate::New(v8::Isolate *,v8::FunctionCallback,v8::Local<v8::Value>,v8::Local<v8::Signature>,int)': cannot convert argument 1 from 'v8::Local<v8::Value> (__cdecl *)(const int)' to 'v8::Isolate *' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\node_win32ole.cc(77): note: There is no context in which this conversion is possible
+..\src\client.cc(48): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(77): error C2227: left of '->GetFunction' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(78): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\node_win32ole.cc(78): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(79): error C2664: 'v8::Local<v8::FunctionTemplate> v8::FunctionTemplate::New(v8::Isolate *,v8::FunctionCallback,v8::Local<v8::Value>,v8::Local<v8::Signature>,int)': cannot convert argument 1 from 'v8::Local<v8::Value> (__cdecl *)(const int)' to 'v8::Isolate *' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\node_win32ole.cc(79): note: There is no context in which this conversion is possible
+..\src\node_win32ole.cc(79): error C2227: left of '->GetFunction' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(80): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\node_win32ole.cc(80): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(81): error C2664: 'v8::Local<v8::FunctionTemplate> v8::FunctionTemplate::New(v8::Isolate *,v8::FunctionCallback,v8::Local<v8::Value>,v8::Local<v8::Signature>,int)': cannot convert argument 1 from 'v8::Local<v8::Value> (__cdecl *)(const int)' to 'v8::Isolate *' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\node_win32ole.cc(81): note: There is no context in which this conversion is possible
+..\src\node_win32ole.cc(81): error C2227: left of '->GetFunction' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(82): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\node_win32ole.cc(82): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(57): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(83): error C2664: 'v8::Local<v8::FunctionTemplate> v8::FunctionTemplate::New(v8::Isolate *,v8::FunctionCallback,v8::Local<v8::Value>,v8::Local<v8::Signature>,int)': cannot convert argument 1 from 'v8::Local<v8::Value> (__cdecl *)(const int)' to 'v8::Isolate *' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+  ..\src\node_win32ole.cc(83): note: There is no context in which this conversion is possible
+..\src\client.cc(57): error C2664: 'v8::Local<v8::Value> node_win32ole::Client::New(const int)': cannot convert argument 1 from 'const char [33]' to 'const int' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(57): note: There is no context in which this conversion is possible
+..\src\node_win32ole.cc(83): error C2227: left of '->GetFunction' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(56): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(84): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(58): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\client.cc(58): error C2228: left of '.This' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(58): note: type is 'unknown-type'
+..\src\node_win32ole.cc(84): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(60): error C2039: 'Wrap': is not a member of 'node_win32ole::Client' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(85): error C2664: 'v8::Local<v8::FunctionTemplate> v8::FunctionTemplate::New(v8::Isolate *,v8::FunctionCallback,v8::Local<v8::Value>,v8::Local<v8::Signature>,int)': cannot convert argument 1 from 'v8::Local<v8::Value> (__cdecl *)(const int)' to 'v8::Isolate *' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\client.h(10): note: see declaration of 'node_win32ole::Client'
+  ..\src\node_win32ole.cc(85): note: There is no context in which this conversion is possible
+..\src\client.cc(61): error C2660: 'v8::External::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(85): error C2227: left of '->GetFunction' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(61): error C2660: 'v8::Object::SetInternalField': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(86): error C2039: 'NewSymbol': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\node_win32ole.cc(86): error C3861: 'NewSymbol': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\node_win32ole.cc(86): fatal error C1003: error count exceeds 100; stopping compilation [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(62): error C2660: 'v8::PersistentBase<v8::Object>::New': function does not take 1 arguments [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(63): error C2039: 'MakeWeak': is not a member of 'v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+          with
+          [
+              T=v8::Object
+          ]
+  d:\code\tts\nodeversion\node_modules\win32ole\src\node_win32ole.h(84): note: see declaration of 'v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>'
+          with
+          [
+              T=v8::Object
+          ]
+..\src\client.cc(65): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(65): error C2228: left of '.This' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(65): note: type is 'unknown-type'
+..\src\client.cc(68): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(68): error C2143: syntax error: missing ',' before '&' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(70): error C2248: 'v8::HandleScope::HandleScope': cannot access protected member declared in class 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(885): note: see declaration of 'v8::HandleScope::HandleScope'
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\client.cc(72): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(72): error C2228: left of '.Length' must have class/struct/union [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(72): note: type is 'unknown-type'
+..\src\client.cc(73): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(73): error C2227: left of '->IsString' must point to class/struct/union/generic type [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(76): error C2065: 'args': undeclared identifier [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(76): error C2512: 'v8::String::Utf8Value::Utf8Value': no appropriate default constructor available [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(79): warning C4311: 'type cast': pointer truncation from 'wchar_t *' to 'BOOL' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(79): warning C4302: 'type cast': truncation from 'wchar_t *' to 'BOOL' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(102): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\client.cc(102): error C2664: 'v8::Local<v8::Value> node_win32ole::Client::New(const int)': cannot convert argument 1 from 'const char [75]' to 'const int' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  ..\src\client.cc(102): note: There is no context in which this conversion is possible
+..\src\client.cc(102): error C3861: 'ThrowException': identifier not found [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+..\src\client.cc(137): error C2039: 'Close': is not a member of 'v8::HandleScope' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(869): note: see declaration of 'v8::HandleScope'
+..\src\client.cc(140): error C2039: 'New': is not a member of 'v8::String' [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]
+  c:\users\nwt.leicabio\.node-gyp\4.4.0\include\node\v8.h(2081): note: see declaration of 'v8::String'
+..\src\client.cc(140): fatal error C1003: error count exceeds 100; stopping compilation [D:\code\tts\nodeversion\node_modules\win32ole\build\node_win32ole.vcxproj]

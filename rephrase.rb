@@ -4,9 +4,14 @@
 begin
 SUBSTITUTIONS = {
 	# TODO:  Read urls correctly... http://aumel-constash.vsl.com.au:7990/projects/BOND/repos/bddmanagement  as http aumel-constash dot vsl dot com dot au, port 7990, projects, BOND, repos, bdd Management
+	'JIRA'										    =>  'jeerer',
+	'prepended'										=>  'pre-pen-ded',
 	/UCASE([0-9]+)/									=> "yous case \\1",
+	/\bAPiQ\b/i										=> ' AyPeeEyeQue ',	
 	/\b\.Net\b/										=> " dot net ",
 	"/"												=> "-n-",
+	/\bunix\b/i										=> "U-nix",
+	/\bposix\b/i									=> "Posiks",
 	/\bgit\b/i										=> " gitt ",
 	/\bLBS\b/										=> " Leica Biosystems ",
 	'no.'											=>  "no .",
@@ -50,7 +55,7 @@ SUBSTITUTIONS = {
 	'BOND-III'                  					=>  'BOND3',
 	' is.'                  						=>  ' is .',
 	'Telerik'                  						=>  'Tellerrick',
-	'reading and writing'                  			=>  ' banana and <phoneme alphabet="x-cmu" ph="T AH0 M EY1 T OW0">writing</phoneme>',
+	'Taipan'										=>  'Tie-Pan',
 }
 
 
@@ -59,25 +64,26 @@ SUBSTITUTIONS = {
 
 require 'cgi'
 
-#def to_speakxml(text)
+# def to_speakxml(text)
 #  text.gsub!(/\r?\n/, " ")
-#	expression = Regexp.union(SUBSTITUTIONS.keys)
-#	begin
-#		<<-eos
-#		<?xml version="1.0" encoding="UTF-8"?>
-#		<speak xmlns="http://www.w3.org/2001/10/synthesis" version="1.0" xml:lang="en-UK">
-#		<voice xml:lang="en-UK">
-#			#{SUBSTITUTIONS.reduce(text){ |o, (r,s)| 
-#				s.is_a?(Proc) ? o.gsub(r, &s) : o.gsub(r, s)
-#				}
-#			}
-#		</voice>
-#		</speak>
-#		eos
-#	rescue => e
-#		e.to_s
-#	end
-#end
+# 	expression = Regexp.union(SUBSTITUTIONS.keys)
+# 	begin
+# 		<<-eos
+# 		<?xml version="1.0" encoding="UTF-8"?>
+# 		<speak xmlns="http://www.w3.org/2001/10/synthesis" version="1.0" xml:lang="en-UK">
+# 		<phoneme alphabet="ipa" ph="t&#x259;mei&#x325;&#x27E;ou&#x325;"> potato </phoneme>
+# 		<voice xml:lang="en-UK">
+# 			#{SUBSTITUTIONS.reduce(text){ |o, (r,s)| 
+# 				s.is_a?(Proc) ? o.gsub(r, &s) : o.gsub(r, s)
+# 				}
+# 			}
+# 		</voice>
+# 		</speak>
+# 		eos
+# 	rescue => e
+# 		e.to_s
+# 	end
+# end
 
 def to_speakxml(text)
   text.gsub!(/\r?\n/, " ")
