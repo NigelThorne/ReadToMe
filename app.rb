@@ -1,14 +1,33 @@
 require 'sinatra'
-require_relative './speech_server'
-
+require 'win32ole'
+Sinatra::Application.reset! 
 
 class MySinatraApp < Sinatra::Base
 
-  set :bind, '0.0.0.0'
   set :port, 7732 #SPEAK
-  set :server, 'thin'
+  
+  @@is_paused = false
+  
+  module SpeechVoiceSpeakFlags
+    #SpVoice Flags
+    SVSFDefault = 0
+    SVSFlagsAsync = 1
+    SVSFPurgeBeforeSpeak = 2
+    SVSFIsFilename = 4
+    SVSFIsXML = 8
+    SVSFIsNotXML = 16
+    SVSFPersistXML = 32
 
-  @@server = SpeechServer.new
+    #Normalizer Flags
+    SVSFNLPSpeakPunc = 64
+
+    #Masks
+    SVSFNLPMask = 64
+    SVSFVoiceMask = 127
+    SVSFUnusedFlags = -128
+  end
+  
+	@@queue ||= []
 
 	get '/' do
 		"""<html><body>
@@ -43,68 +62,83 @@ class MySinatraApp < Sinatra::Base
 		</body></html>"""
 	end
   
-
-
-	# post '/say_to_file' do
-	# 	@@is_paused = false
-	# 	out= voice.AudioOutputStream
-	# 	temp_file = "c:\\temp\\output.wav"
-	# 	rm_file(temp_file)		
-
-	# 	fs =  WIN32OLE.new('SAPI.SpFileStream')
-	# 	fs.Open(temp_file, 3, true)
-	# 	puts "file open"
-
-	# 	format_ex = WIN32OLE.new('SAPI.SpWaveFormatEx')
-
-
-	# 	voice.AudioOutputStream = fs
-	# 	voice.AudioOutputStream.Format.Type = 39 # SAFT48kHz16BitStereo = 39
- 		
- # 		puts "stream set"
-
-	# 	voice.Speak(params["text"], SpeechVoiceSpeakFlags::SVSFPurgeBeforeSpeak)
-	# 	puts "text spoken: #{params["text"]}"
-		
-	# 	fs.Close()
-
-	# 	voice.AudioOutputStream = out
-	# 	puts "stream reset"
-
-	# 	return "ok #{temp_file}"
-	# end
-
 	post '/say' do
-		@@server.say(params["text"])
+		@@is_paused = false
+		voice.Speak(params["text"], SpeechVoiceSpeakFlags::SVSFlagsAsync)
 		return "ok"
-	end	
+	end
+
+	post '/say_to_file' do
+		@@is_paused = false
+		out= voice.AudioOutputStream
+		temp_file = "c:\\temp\\output.wav"
+		rm_file(temp_file)		
+
+		fs =  WIN32OLE.new('SAPI.SpFileStream')
+		fs.Open(temp_file, 3, true)
+		puts "file open"
+
+		format_ex = WIN32OLE.new('SAPI.SpWaveFormatEx')
+
+
+		voice.AudioOutputStream = fs
+		voice.AudioOutputStream.Format.Type = 39 # SAFT48kHz16BitStereo = 39
+ 		
+ 		puts "stream set"
+
+		voice.Speak(params["text"], SpeechVoiceSpeakFlags::SVSFPurgeBeforeSpeak)
+		puts "text spoken: #{params["text"]}"
+		
+		fs.Close()
+
+		voice.AudioOutputStream = out
+		puts "stream reset"
+
+		return "ok #{temp_file}"
+	end
 
 	post'/pause' do
-		@@server.pause()
+		voice.Pause
+		@@is_paused = true
 		return "ok"
 	end
 
 	post'/stop' do
-		@@server.stop()
+		voice.Speak("", SpeechVoiceSpeakFlags::SVSFPurgeBeforeSpeak)
+		@@is_paused = false
 		return "ok"
 	end
 
 	post '/resume' do
-		@@server.resume
+		voice.Resume
+		@@is_paused = false
 		return "ok"
 	end
 
 	post '/toggle' do
-		@@server.toggle
+		if (@@is_paused)
+			@@is_paused = false
+			voice.Resume
+		else	
+			@@is_paused = true
+			voice.Pause
+		end
 		return "ok"
 	end
 	
-	# get '/status' do
-	# 	voice.Speak("status")
-	# 	return "COM Object: #{@@voice.nil?}"
-	# end
+	get '/status' do
+		voice.Speak("status")
+		return "COM Object: #{@@voice.nil?}"
+	end
 	
-
+	def voice
+		begin 
+			@@voice.IsUISupported(nil) if(@@voice != nil) 
+		rescue
+			@@voice = nil
+		end
+		@@voice ||= WIN32OLE.new('SAPI.SpVoice')
+	end
 
 	def rm_file(file)
  		File.delete(file) if File.exist?(file)
