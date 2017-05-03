@@ -1,6 +1,7 @@
 require 'win32ole'
 
 class SpeechServer
+
   def initialize   
    @is_paused = false
    @queue ||= []
@@ -26,26 +27,27 @@ class SpeechServer
   end
 
   def say(text)
-	@is_paused = false
-	voice.Speak(text, SpeechVoiceSpeakFlags::SVSFIsXML)
+  	@is_paused = false
+  	voice.Speak(text, SpeechVoiceSpeakFlags::SVSFIsXML)
   end
 
   def pause
-	voice.Pause
-	@is_paused = true
+  	voice.Pause
+  	@is_paused = true
   end
 
   def stop
-	voice.Speak("", SpeechVoiceSpeakFlags::SVSFPurgeBeforeSpeak)
-	@is_paused = false
+  	voice.Speak("", SpeechVoiceSpeakFlags::SVSFPurgeBeforeSpeak)
+  	@is_paused = false
   end
+
   def resume
-	voice.Resume
-	@is_paused = false
+  	voice.Resume
+  	@is_paused = false
   end
 
   def toggle
-  			if (@is_paused)
+  	if (@is_paused)
 			@is_paused = false
 			voice.Resume
 		else	

@@ -1,10 +1,11 @@
 require 'sinatra'
 require 'win32ole'
-Sinatra::Application.reset! 
+#Sinatra::Application.reset! 
 
 class MySinatraApp < Sinatra::Base
 
   set :port, 7732 #SPEAK
+  set :bind, '0.0.0.0' 
   
   @@is_paused = false
   

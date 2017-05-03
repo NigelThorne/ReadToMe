@@ -51,6 +51,7 @@ https.createServer(options, app).listen(7733, function () {
 });
 
 function post(path, data){
+	console.log(`Posting to ${path}`);
 	var postData = querystring.stringify(data);
 
 	var options = {
