@@ -46,3 +46,4 @@ Return
 CloseGui:
     Gui, Cancel
 Return
+
