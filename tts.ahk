@@ -3,6 +3,7 @@ Gui, Add, Button, gPause, &Pause
 Gui, Add, Button, gResume ys, &Resume
 Gui, Add, Button, gStop ys, &Stop
 Gui, Add, Button, gCloseGui ys, &Close
+Gui, Add, Button, gEdit ys, &Edit
 Gui, Show,, TTS
 
 
@@ -41,6 +42,10 @@ Return
 
 Resume:
     Run, %comspec% /c "".\resume.rb"" ,,;Hide
+Return
+
+Edit:
+    Run, %comspec% /c "subl ".\rephrase.rb"" ,,;Hide
 Return
 
 CloseGui:

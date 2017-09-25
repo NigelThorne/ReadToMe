@@ -4,8 +4,8 @@
 begin
 SUBSTITUTIONS = {
 	# TODO:  Read urls correctly... http://aumel-constash.vsl.com.au:7990/projects/BOND/repos/bddmanagement  as http aumel-constash dot vsl dot com dot au, port 7990, projects, BOND, repos, bdd Management
-	'JIRA'										    =>  'jeerer',
-	'prepended'										=>  'pre-pen-ded',
+	'JIRA'										    => 'jeerer',
+	'prepended'										=> 'pre-pen-ded',
 	/UCASE([0-9]+)/									=> "yous case \\1",
 	/\bAPiQ\b/i										=> ' AyPeeEyeQue ',	
 	/\b\.Net\b/										=> " dot net ",
@@ -56,6 +56,8 @@ SUBSTITUTIONS = {
 	' is.'                  						=>  ' is .',
 	'Telerik'                  						=>  'Tellerrick',
 	'Taipan'										=>  'Tie-Pan',
+	'Fibonacci'										=>  'Fib-on-archy',
+	'understood'									=>	'understood', #fix
 }
 
 
