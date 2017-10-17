@@ -9,8 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "*",
     "express": "^4.15.2",
-    "jscript": "*",
-    "body-parser" : "*"
+    "greenlock-express": "^2.0.11",
+    "jscript": "*"
   }
 }

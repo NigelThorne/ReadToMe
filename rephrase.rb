@@ -28,7 +28,7 @@ SUBSTITUTIONS = {
 	"\u0092"										=> "'",	
 	/n[^a-z0-9\s]t/									=> 'n\'t',	
 	/[®«]/											=> "", # don't read trademark sign
-	/ A /											=> "'a'", 
+	/ A /											=> "Aey", 
 	/PMs/											=> "pee-emms", 
 	/RESTful/										=> "restful", 
 	/Actionee/i										=> "Action-e",
@@ -57,7 +57,11 @@ SUBSTITUTIONS = {
 	'Telerik'                  						=>  'Tellerrick',
 	'Taipan'										=>  'Tie-Pan',
 	'Fibonacci'										=>  'Fib-on-archy',
-	'understood'									=>	'understood', #fix
+	'understood'									=>	'understhood', #fix
+	'learned'										=>  'learnt',
+	'déjà-vus'										=>  'day-jar-voo',
+	'deja-vus'										=>  'day-jar-voo',
+	'Einstein'										=>  'Ine-stine',
 }
 
 

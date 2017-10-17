@@ -23,6 +23,14 @@ def stop()
    post("stop", 'text' => '')
 end
 
+def faster(amount)
+   post("faster", 'amount' => amount)
+end
+
+def slower(amount)
+   post("slower", 'amount' => amount)
+end
+
 def post(act, body)
 	uri = URI.parse("http://localhost:7732/#{act}")
 #	http = Net::HTTP.new(uri.host, uri.port)

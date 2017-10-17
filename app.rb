@@ -31,6 +31,7 @@ class MySinatraApp < Sinatra::Base
 	@@queue ||= []
 
 	get '/' do
+		voice
 		"""<html><body>
 		<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js\"></script>
 		<script>
@@ -46,6 +47,9 @@ class MySinatraApp < Sinatra::Base
 		<button type='button' onclick=\"post('./resume')\">Resume</button>
 		<button type='button' onclick=\"post('./stop')\">Stop</button>
 		<button type='button' onclick=\"post('./toggle')\">Pause/Resume</button>
+		<button type='button' onclick=\"post('./faster')\">Faster</button>
+		<span>#{@@rate}</span>
+		<button type='button' onclick=\"post('./slower')\">Slower</button>
 
 		<script>
 			$('#sayform').submit(function(e){
@@ -116,6 +120,18 @@ class MySinatraApp < Sinatra::Base
 		return "ok"
 	end
 
+	post '/faster' do 
+		@@rate = @@rate + params["amount"].to_i
+		voice.Rate = @@rate
+		return "ok"
+	end
+
+	post '/slower' do 
+		@@rate = @@rate - params["amount"].to_i
+		voice.Rate = @@rate
+		return "ok"
+	end
+
 	post '/toggle' do
 		if (@@is_paused)
 			@@is_paused = false
@@ -139,6 +155,8 @@ class MySinatraApp < Sinatra::Base
 			@@voice = nil
 		end
 		@@voice ||= WIN32OLE.new('SAPI.SpVoice')
+		@@rate ||= @@voice.Rate()
+		@@voice
 	end
 
 	def rm_file(file)

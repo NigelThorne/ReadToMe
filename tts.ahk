@@ -4,6 +4,8 @@ Gui, Add, Button, gResume ys, &Resume
 Gui, Add, Button, gStop ys, &Stop
 Gui, Add, Button, gCloseGui ys, &Close
 Gui, Add, Button, gEdit ys, &Edit
+Gui, Add, Button, gSlower ys, &Slower
+Gui, Add, Button, gFaster ys, &Faster
 Gui, Show,, TTS
 
 
@@ -46,6 +48,14 @@ Return
 
 Edit:
     Run, %comspec% /c "subl ".\rephrase.rb"" ,,;Hide
+Return
+
+Faster:
+    Run, %comspec% /c "".\faster.rb"" ,,;Hide
+Return
+
+Slower:
+    Run, %comspec% /c "".\slower.rb"" ,,;Hide
 Return
 
 CloseGui:
