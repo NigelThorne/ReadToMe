@@ -43,6 +43,7 @@ function forward_to_http (req, res) {
 }
 
 app.post('/say', forward_to_http)
+app.post('/say_to_file', forward_to_http)
 app.post('/pause', forward_to_http)
 app.post('/stop', forward_to_http)
 app.post('/resume', forward_to_http)
@@ -85,6 +86,6 @@ function post(path, data){
 
 	// write data to request body
 	req.write(postData);
-	req.end();	
+	req.end();
 }
 

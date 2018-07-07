@@ -1,8 +1,9 @@
 # encoding: utf-8
-require 'win32ole'
-require "./say"
-
 begin
+
+	require 'win32ole'
+	require "./say"
+
 	text = File.read('c:\\temp\\tmp_ahk_tts_clip.txt')
 #	ARGF.set_encoding(Encoding::UTF_8)
 #	text = ARGF.read();

@@ -1,14 +1,18 @@
 require 'sinatra'
 require 'win32ole'
-#Sinatra::Application.reset! 
+#Sinatra::Application.reset!
+require 'tempfile'
+
+
+
 
 class MySinatraApp < Sinatra::Base
 
   set :port, 7732 #SPEAK
-  set :bind, '0.0.0.0' 
-  
+  set :bind, '0.0.0.0'
+
   @@is_paused = false
-  
+
   module SpeechVoiceSpeakFlags
     #SpVoice Flags
     SVSFDefault = 0
@@ -27,7 +31,7 @@ class MySinatraApp < Sinatra::Base
     SVSFVoiceMask = 127
     SVSFUnusedFlags = -128
   end
-  
+
 	@@queue ||= []
 
 	get '/' do
@@ -46,10 +50,11 @@ class MySinatraApp < Sinatra::Base
 		<button type='button' onclick=\"post('./pause')\">Pause</button>
 		<button type='button' onclick=\"post('./resume')\">Resume</button>
 		<button type='button' onclick=\"post('./stop')\">Stop</button>
-		<button type='button' onclick=\"post('./toggle')\">Pause/Resume</button>
+		<button type='button' onclick=\"post('./toggle')\">Toggle Pause</button>
 		<button type='button' onclick=\"post('./faster')\">Faster</button>
 		<span>#{@@rate}</span>
 		<button type='button' onclick=\"post('./slower')\">Slower</button>
+		<button id='saytofile' type='button'>say_to_file</button>
 
 		<script>
 			$('#sayform').submit(function(e){
@@ -63,10 +68,21 @@ class MySinatraApp < Sinatra::Base
 			        }
 			    });
 			});
+			$('#saytofile').click(function(e){
+			    e.preventDefault();
+			    $.ajax({
+			        url:'./say_to_file',
+			        type:'post',
+			        data:$('#sayform').serialize(),
+			        success:function(){
+			        	$('#sayform input').val(\"\");
+			        }
+			    });
+			});
 		</script>
 		</body></html>"""
 	end
-  
+
 	post '/say' do
 		@@is_paused = false
 		voice.Speak(params["text"], SpeechVoiceSpeakFlags::SVSFlagsAsync)
@@ -77,23 +93,23 @@ class MySinatraApp < Sinatra::Base
 		@@is_paused = false
 		out= voice.AudioOutputStream
 		temp_file = "c:\\temp\\output.wav"
-		rm_file(temp_file)		
+		rm_file(temp_file)
 
 		fs =  WIN32OLE.new('SAPI.SpFileStream')
+		fs.Format.Type = 39 # SAFT48kHz16BitStereo = 39
 		fs.Open(temp_file, 3, true)
-		puts "file open"
+		puts "file  open #{temp_file}"
 
-		format_ex = WIN32OLE.new('SAPI.SpWaveFormatEx')
+		#format_ex = WIN32OLE.new('SAPI.SpWaveFormatEx')
 
 
 		voice.AudioOutputStream = fs
-		voice.AudioOutputStream.Format.Type = 39 # SAFT48kHz16BitStereo = 39
- 		
+
  		puts "stream set"
 
-		voice.Speak(params["text"], SpeechVoiceSpeakFlags::SVSFPurgeBeforeSpeak)
+		voice.Speak(params["text"], 3)
 		puts "text spoken: #{params["text"]}"
-		
+		voice.WaitUntilDone(-1)
 		fs.Close()
 
 		voice.AudioOutputStream = out
@@ -120,13 +136,13 @@ class MySinatraApp < Sinatra::Base
 		return "ok"
 	end
 
-	post '/faster' do 
+	post '/faster' do
 		@@rate = @@rate + params["amount"].to_i
 		voice.Rate = @@rate
 		return "ok"
 	end
 
-	post '/slower' do 
+	post '/slower' do
 		@@rate = @@rate - params["amount"].to_i
 		voice.Rate = @@rate
 		return "ok"
@@ -136,26 +152,41 @@ class MySinatraApp < Sinatra::Base
 		if (@@is_paused)
 			@@is_paused = false
 			voice.Resume
-		else	
+		else
 			@@is_paused = true
 			voice.Pause
 		end
 		return "ok"
 	end
-	
+
 	get '/status' do
 		voice.Speak("status")
 		return "COM Object: #{@@voice.nil?}"
 	end
-	
+
+	get '/save' do
+		file = Tempfile.new('tts')
+		path = file.path      # => A unique filename in the OS's temp directory,
+		               #    e.g.: "/tmp/foo.24722.0"
+		               #    This filename contains 'foo' in its basename.
+		file.close
+		stream = WIN32OLE.new("SAPI.SpFileStream")
+		stream.Format.Type = 39 # SAFT48kHz16BitStereo
+		stream.Open path, 3 # SSFMCreateForWrite
+		voice.AudioOutputStream = stream
+		voice.Speak
+	end
+
 	def voice
-		begin 
-			@@voice.IsUISupported(nil) if(@@voice != nil) 
+		begin
+			@@voice.IsUISupported(nil) if(@@voice != nil)
 		rescue
 			@@voice = nil
 		end
-		@@voice ||= WIN32OLE.new('SAPI.SpVoice')
-		@@rate ||= @@voice.Rate()
+		if(@@voice == nil)
+			@@voice = WIN32OLE.new('SAPI.SpVoice')
+			@@rate  = @@voice.Rate()
+		end
 		@@voice
 	end
 

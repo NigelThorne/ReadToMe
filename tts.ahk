@@ -1,3 +1,11 @@
+Ruby(params*) {
+    for index,param in params
+        str .= """" . param . """ "
+
+    Run, %comspec% /c ""ruby" %str%" ,,;Hide
+    Return
+}
+
 ;;;;;;;;;;;;;;;;;;;;TTS;;;;;;;;;;;;;;;;;;;;;;
 Gui, Add, Button, gPause, &Pause
 Gui, Add, Button, gResume ys, &Resume
@@ -6,20 +14,22 @@ Gui, Add, Button, gCloseGui ys, &Close
 Gui, Add, Button, gEdit ys, &Edit
 Gui, Add, Button, gSlower ys, &Slower
 Gui, Add, Button, gFaster ys, &Faster
-Gui, Show,, TTS
+Gui, Add, Button, gReadClipboard ys, &Read
+Gui, Show,,
 
 
-#^D:: ; Win + Ctrl + D 
-    ClipSaved := ClipboardAll   
+#^D:: ; Win + Ctrl + D
+    ClipSaved := ClipboardAll
     Send ^c
     Gosub, ReadClipboard
-    Clipboard := ClipSaved 
-    ClipSaved = ; Free the memory 
-Return 
+    Clipboard := ClipSaved
+    ClipSaved = ; Free the memory
+Return
 
-#^S:: ; Win + Ctrl + S 
+#^S:: ; Win + Ctrl + S
     Gosub, ReadClipboard
-Return 
+Return
+
 
 ReadClipboard:
     ClipWait, 2 , 1  ; Wait for the clipboard to contain text.
@@ -31,31 +41,31 @@ ReadClipboard:
     FileDelete , c:\temp\tmp_ahk_tts_clip.txt
     FileAppend , %Clipboard% , c:\temp\tmp_ahk_tts_clip.txt
 
-    Run, %comspec% /c "".\rephrase_runner.rb" c:\temp\tmp_ahk_tts_clip.txt" ,,;Hide
+    Ruby(".\rephrase_runner.rb", "c:\temp\tmp_ahk_tts_clip.txt")
 Return
 
 Stop:
-    Run, %comspec% /c "".\stop.rb"" ,,;Hide
+    Ruby(".\stop.rb")
 Return
 
 Pause:
-    Run, %comspec% /c "".\pause.rb"" ,,;Hide
+    Ruby(".\pause.rb")
 Return
 
 Resume:
-    Run, %comspec% /c "".\resume.rb"" ,,;Hide
+    Ruby(".\resume.rb")
 Return
 
 Edit:
-    Run, %comspec% /c "subl ".\rephrase.rb"" ,,;Hide
+    Ruby(".\rephrase.rb")
 Return
 
 Faster:
-    Run, %comspec% /c "".\faster.rb"" ,,;Hide
+    Ruby(".\faster.rb")
 Return
 
 Slower:
-    Run, %comspec% /c "".\slower.rb"" ,,;Hide
+    Ruby(".\slower.rb")
 Return
 
 CloseGui:

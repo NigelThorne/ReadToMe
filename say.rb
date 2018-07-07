@@ -1,7 +1,6 @@
 require 'uri'
 require 'net/http'
-#require 'openssl'
-#
+
 
 def say(text)
 	post("say", 'text' => text)
@@ -40,6 +39,6 @@ def post(act, body)
 #	request.set_form_data(body)
 #	response = http.request(request)
 
-	response = Net::HTTP.post_form(uri, body)
+	Net::HTTP.post_form(uri, body)
 end
 

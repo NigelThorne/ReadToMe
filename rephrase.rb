@@ -4,10 +4,12 @@
 begin
 SUBSTITUTIONS = {
 	# TODO:  Read urls correctly... http://aumel-constash.vsl.com.au:7990/projects/BOND/repos/bddmanagement  as http aumel-constash dot vsl dot com dot au, port 7990, projects, BOND, repos, bdd Management
+    /\b[IVXCDLM]{2,}\b/                             => lambda{|x| roman_to_int(x).to_s },
+    /\bRAM\b/                                       => 'ram',
 	'JIRA'										    => 'jeerer',
 	'prepended'										=> 'pre-pen-ded',
 	/UCASE([0-9]+)/									=> "yous case \\1",
-	/\bAPiQ\b/i										=> ' AyPeeEyeQue ',	
+	/\bAPiQ\b/i										=> ' AyPeeEyeQue ',
 	/\b\.Net\b/										=> " dot net ",
 	"/"												=> "-n-",
 	/\bunix\b/i										=> "U-nix",
@@ -25,12 +27,12 @@ SUBSTITUTIONS = {
 #    'WIP'                      						=>  '"Work In Progress"',
     'IMO'                      						=>  '"In My Opinion"',
 	/[A-Z][A-Z][A-Z][A-Z]+((?=[^A-Za-z])|(?!.))/	=> lambda{|x|x.downcase}, #All caps becomes word
-	"\u0092"										=> "'",	
-	/n[^a-z0-9\s]t/									=> 'n\'t',	
+	"\u0092"										=> "'",
+	/n[^a-z0-9\s]t/									=> 'n\'t',
 	/[®«]/											=> "", # don't read trademark sign
-	/ A /											=> "Aey", 
-	/PMs/											=> "pee-emms", 
-	/RESTful/										=> "restful", 
+	/ A /											=> "Aey",
+	/PMs/											=> "pee-emms",
+	/RESTful/										=> "restful",
 	/Actionee/i										=> "Action-e",
 	/Leica/i										=> "Liker",
 	/Axeda/i										=> "Exceedar",
@@ -45,10 +47,10 @@ SUBSTITUTIONS = {
 	/((?<!.)|(?<=\n))(?<line>[\?\-]\t[^\n]*)\n/m	=> "\n\\k<line>.\n", # dot points becomes sentences.
 	/\.dll/											=> " Deelle el",
 	'\\'											=> ' slash ',
-	'default'										=> 'deefault',	
-	'×'												=> 'times',	
-	'disconnect'									=> 'dis-connect',	
-	'btw'									      	=> 'by the way',	
+	'default'										=> 'deefault',
+	'×'												=> 'times',
+	'disconnect'									=> 'dis-connect',
+	'btw'									      	=> 'by the way',
 	'vagaries'                  					=>  'vaigeries',
 	'verbalised'                  					=>  'verbaleyesed',
 	'(s)'                  							=>  's',
@@ -64,6 +66,7 @@ SUBSTITUTIONS = {
 	'Einstein'										=>  'Ine-stine',
 }
 
+require_relative 'roman_to_int'
 
 # gitt
 #Hi, I'm Fred. The time is currently <say-as format="dmy" interpret-as="date">01/02/1960</say-as>
@@ -79,7 +82,7 @@ require 'cgi'
 # 		<speak xmlns="http://www.w3.org/2001/10/synthesis" version="1.0" xml:lang="en-UK">
 # 		<phoneme alphabet="ipa" ph="t&#x259;mei&#x325;&#x27E;ou&#x325;"> potato </phoneme>
 # 		<voice xml:lang="en-UK">
-# 			#{SUBSTITUTIONS.reduce(text){ |o, (r,s)| 
+# 			#{SUBSTITUTIONS.reduce(text){ |o, (r,s)|
 # 				s.is_a?(Proc) ? o.gsub(r, &s) : o.gsub(r, s)
 # 				}
 # 			}
@@ -100,7 +103,7 @@ def to_speakxml(text)
 <vxml version = "2.1">
 <form id="F_1">
 <block>
-			#{SUBSTITUTIONS.reduce(text){ |o, (r,s)| 
+			#{SUBSTITUTIONS.reduce(text){ |o, (r,s)|
 				s.is_a?(Proc) ? o.gsub(r, &s) : o.gsub(r, s)
 				}
 			}
