@@ -10,7 +10,7 @@ begin
 	data = text.bytes.to_a.pack("U*")
 	require_relative 'rephrase'
 	if data == ""
- 	  toggle
+		toggle
 	else
 		text = to_speakxml(data)
 		File.write('C:\\temp\\tmp_ahk_clip_out.txt',text)
@@ -19,5 +19,12 @@ begin
 rescue => e
 	text = e.message
 	text = "empty message" if text.empty?
-  	WIN32OLE.new('SAPI.SpVoice').Speak(text)
+	puts text
+
+	if text =~ /Failed to open TCP connection/
+		io = IO.popen("ruby run.rb")
+		io2 = IO.popen("ruby rephrase_runner.rb")
+	else
+		WIN32OLE.new('SAPI.SpVoice').Speak(text)
+	end
 end

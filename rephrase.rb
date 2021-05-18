@@ -4,6 +4,9 @@
 begin
 SUBSTITUTIONS = {
 	# TODO:  Read urls correctly... http://aumel-constash.vsl.com.au:7990/projects/BOND/repos/bddmanagement  as http aumel-constash dot vsl dot com dot au, port 7990, projects, BOND, repos, bdd Management
+	'IMHO'										    => 'In my humble opinion;',
+	'D u n g e o n s & D r a g o n s' => "Dungeons and Dragons",
+	/\bDM\b/													=> 'Dungeon Master',
     /\b[IVXCDLM]{2,}\b/                             => lambda{|x| roman_to_int(x).to_s },
     /\bRAM\b/                                       => 'ram',
 	'JIRA'										    => 'jeerer',
@@ -64,10 +67,12 @@ SUBSTITUTIONS = {
 	'déjà-vus'										=>  'day-jar-voo',
 	'deja-vus'										=>  'day-jar-voo',
 	'Einstein'										=>  'Ine-stine',
+	/\$(?<amount>[\d,]+)[kK]/							=> lambda{|x,matches| "#{matches[:amount]},000 dollars"},
+  /\$(?<amount>[\d,]+)/               => lambda{|x,matches| "#{matches[:amount]} dollars"}
 }
 
 require_relative 'roman_to_int'
-
+# $14,400K
 # gitt
 #Hi, I'm Fred. The time is currently <say-as format="dmy" interpret-as="date">01/02/1960</say-as>
 
@@ -104,7 +109,7 @@ def to_speakxml(text)
 <form id="F_1">
 <block>
 			#{SUBSTITUTIONS.reduce(text){ |o, (r,s)|
-				s.is_a?(Proc) ? o.gsub(r, &s) : o.gsub(r, s)
+				s.is_a?(Proc) ? o.gsub(r) {|v| s.call(*([v,v.match(r)][0..s.arity-1]))} : o.gsub(r, s)
 				}
 			}
 		</block>

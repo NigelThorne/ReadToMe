@@ -4,6 +4,7 @@ class SpeechServer
 
   def initialize   
    @is_paused = false
+   @rate = 0
    @queue ||= []
   end
   
@@ -28,7 +29,13 @@ class SpeechServer
 
   def say(text)
   	@is_paused = false
+  	voice.Rate = @rate
   	voice.Speak(text, SpeechVoiceSpeakFlags::SVSFIsXML)
+  end
+
+  def faster
+    @rate = @rate + 5
+    voice.Rate = @rate
   end
 
   def pause
@@ -42,6 +49,7 @@ class SpeechServer
   end
 
   def resume
+        voice.Rate = @rate
   	voice.Resume
   	@is_paused = false
   end

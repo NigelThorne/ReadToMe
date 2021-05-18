@@ -33,6 +33,8 @@ class MySinatraApp < Sinatra::Base
   end
 
 	@@queue ||= []
+  @@rate ||= 6
+
 
 	get '/' do
 		voice
@@ -161,7 +163,7 @@ class MySinatraApp < Sinatra::Base
 
 	get '/status' do
 		voice.Speak("status")
-		return "COM Object: #{@@voice.nil?}"
+		return "COM Object: #{!@@voice.nil?}"
 	end
 
 	get '/save' do
@@ -185,7 +187,7 @@ class MySinatraApp < Sinatra::Base
 		end
 		if(@@voice == nil)
 			@@voice = WIN32OLE.new('SAPI.SpVoice')
-			@@rate  = @@voice.Rate()
+			@@voice.Rate = @@rate
 		end
 		@@voice
 	end
